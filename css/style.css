@@ -16,10 +16,19 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
+  color: #283136;
 }
 
 li {
   list-style-type: none;
+}
+
+.nerds-logo:hover {
+  opacity: 0.8;
+}
+
+.nerds-logo:active {
+  opacity: 0.3;
 }
 
 .nav-link {
@@ -27,6 +36,7 @@ li {
   line-height: 30px;
   color: black;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -49,11 +59,7 @@ li {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
-}
-
-.service-desc {
-  font-family: "Roboto Regular", Arial, sans-serif;
-  color: #283136;
+  color: black;
 }
 
 .service-link {
@@ -114,10 +120,10 @@ li {
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
+  color: black;
 }
 
 .footer-text {
-  font-family: "Roboto Regular", Arial, sans-serif;
   line-height: 22px;
   color: #444444;
 }
@@ -126,11 +132,13 @@ li {
   font-family: "Roboto Medium", Arial, sans-serif;
   font-size: 45px;
   line-height: 45px;
+  color: black;
 }
 
 .pop-up-label {
   font-weight: bold;
   line-height: 18px;
+  color: black;
 }
 
 input[type="text"],
@@ -138,6 +146,7 @@ input[type="email"] {
   font: inherit;
   border: 2px solid #d7dcde;
   outline: none;
+  color: #444444;
 }
 
 .pop-up-textarea {
@@ -168,6 +177,7 @@ input[type="email"] {
   font-family: "Roboto Medium", Arial, sans-serif;
   font-size: 55px;
   line-height: 55px;
+  color: black;
 }
 
 .form-radio-item-label {
@@ -210,6 +220,7 @@ input[type="email"] {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .shop-desc {
@@ -232,4 +243,71 @@ input[type="email"] {
   text-transform: uppercase;
   color: white;
   background-color: #fb565a;
+}
+
+.shop-btn:hover {
+  background-color: #e74246;
+}
+
+.shop-btn:active {
+  background-color: #d7373b;
+}
+
+.form-radio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.form-checkbox-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.social {
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: #e1e1e1;
+}
+
+.social-vk {
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-radius: 50%;
+}
+
+.social-fb {
+  padding-top: 27px;
+  padding-bottom: 28px;
+  padding-left: 33px;
+  padding-right: 31px;
+  border-radius: 50%;
+}
+
+.social-inst {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 29px;
+  padding-right: 28px;
+  border-radius: 50%;
+}
+
+.social:hover {
+  background-color: #e74246;
+}
+
+.social:active svg {
+  background-color: #d7373b;
+  opacity: 0.3;
+}
+
+.social svg {
+  display: block;
 }
