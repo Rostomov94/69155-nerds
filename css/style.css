@@ -105,7 +105,11 @@ ul {
 
 .service-block {
   width: 300px;
+}
+
+.service-block:nth-child(2) {
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 .service-img {
@@ -200,9 +204,12 @@ ul {
   margin-left: 20px;
 }
 
+.footer-container {
+  align-items: center;
+}
+
 .footer-desc {
   width: 580px;
-  margin-top: -15px;
 }
 
 .footer-title {
@@ -311,12 +318,13 @@ input[type="email"] {
 .shop {
   display: flex;
   flex-wrap: wrap;
+  width: 760px;
 }
 
 .main-form {
   display: flex;
   flex-direction: column;
-  margin-right: 170px;
+  width: 260px;
 }
 
 .block-flex {
@@ -395,33 +403,20 @@ input[type="email"] {
   text-transform: uppercase;
 }
 
+.social-ul {
+  margin: 0;
+  padding: 0;
+}
+
 .social {
   display: inline-block;
   margin-bottom: 30px;
   background-color: #e1e1e1;
-}
-
-.social-vk {
-  padding-top: 31px;
-  padding-bottom: 31px;
-  padding-left: 27px;
-  padding-right: 27px;
-  border-radius: 50%;
-}
-
-.social-fb {
-  padding-top: 27px;
-  padding-bottom: 28px;
-  padding-left: 33px;
-  padding-right: 31px;
-  border-radius: 50%;
-}
-
-.social-inst {
-  padding-top: 29px;
-  padding-bottom: 29px;
-  padding-left: 29px;
-  padding-right: 28px;
+  display: flex;
+  width: 66px;
+  height: 66px;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
 
