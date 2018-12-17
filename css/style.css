@@ -109,9 +109,6 @@ li {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.services {
-  
-}
 
 .service {
   display: flex;
@@ -121,7 +118,7 @@ li {
   margin-bottom: 0;
   padding: 0;
   padding-bottom: 93px;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
 }
 
 .service-block {
@@ -641,12 +638,13 @@ input[type="email"] {
   width: 1160px;
   margin: 0 auto;
   border-bottom: 2px solid red;
+  padding-top: 5px;
 }
 
 .partners-list {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -654,30 +652,39 @@ input[type="email"] {
 
 .partners-item {
   position: relative;
-  width: 300px;
+  width: 24%;
+  height: 174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .partners-item:nth-child(4) {
-  position: relative;
   width: 260px;
-  margin-left: 0;
 }
 
-.partners-item::after {
-    content: "";
-    position: absolute;
-    top: 20px;
-    right: 19px;
-    width: 2px;
-    height: 52px;
-    background-color: #eee;
+.partners-item:nth-child(-n+3)::after {
+  content: "";
+  position: absolute;
+  top: 52px;
+  right: -4px;
+  width: 2px;
+  height: 52px;
+  background-color: #eee;
 }
 
 .partners-link {
-  
+
 }
 
 .partners-logo {
   opacity: 0.2;
- 
+}
+
+.partners-logo:active {
+  opacity: 0.1;
+}
+
+.partners-logo:hover {
+  opacity: 1.0;
 }
