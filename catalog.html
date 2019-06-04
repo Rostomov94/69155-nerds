@@ -208,6 +208,7 @@
     <form class="pop-up-form" method="post">
       <fieldset class="pop-up-field">
         <legend class="pop-up-title">Напишите нам</legend>
+        <div class="flex-pop-up">
         <p class="pop-up-item">
           <label class="pop-up-label" for="name">Ваше имя:</label>
           <input class="pop-up-input" type="text" id="name" name="name" placeholder="Имя фамилия" required>
@@ -216,7 +217,8 @@
           <label class="pop-up-label" for="mail">Ваш e-mail:</label>
           <input class="pop-up-input" type="email" id="mail" name="mail" placeholder="email@example.com" required>
         </p>
-        <p class="pop-up-item">
+        </div>
+        <p class="pop-up-item pop-up-item-textarea">
           <label class="pop-up-label" for="comment-field">Текст письма:</label>
           <textarea class="pop-up-textarea" name="comment" id="comment-field" placeholder="В свободной форме"></textarea>
         </p>
